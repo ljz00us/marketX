@@ -1,0 +1,97 @@
+
+/* --- title --- */
+
+body {
+    height: 10em;
+    position: relative;
+    font-family: 'Nixie One', cursive;
+    font-size: 40px;
+}
+
+
+/* --- button --- */
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Courier New;
+  color: #000080;
+  font-size: 20px;
+  font-family: 'Nixie One', cursive;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display:inline-block;
+  width:250px;
+  border-style:dotted;
+}
+
+.btn:hover {
+  background: #F8F8F8;
+  text-decoration: none;
+}
+
+h1  {
+  text-align: center;
+  font-family: Lato;
+  font-weight: 100;
+  font-size:40vw;
+}
+
+h2 {
+  text-align: center;
+  font-family: Lato;
+  font-weight: 100;
+  font-size:4em;
+}
+    
+p.subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+p {
+  font-family: Merriweather;
+  font-size:20px;
+  font-weight:light;
+}
+
+img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width:4em;
+  vertical-align: center;
+}
+
+div a {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.company {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px dotted;
+  border-radius: 20px;
+  margin:5px;
+  font-family: Raleway Dots, ariel;
+  font-size:25px;
+}
+
+a img {
+  display:inline-block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/*family=Nixie+One|Arimo|Raleway+Dots|Bubbler+One*|Lato
+
+.navbar {
+  font-family: Arimo, ariel;
+  clear:both;
+}
