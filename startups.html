@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>market.X</title>
+  	<meta charset="utf-8">
+
+  	<!-- mobile first viewing -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- bootstrap -->
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  	<!--fonts -->
+  	<link href='http://fonts.googleapis.com/css?family=Nixie+One|Arimo|Raleway+Dots|Bubbler+One|Lato:100,400|Merriweather:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../market.X/style.css">
+
+  	<!-- local javascript file -->
+  	<script language = "Javascript" type="text/javascript" src = "javascript.js"></script>
+
+    <!-- angular -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+    <!--jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div id='content'>
+
+<!-- sidebar -->
+   <div id='left'>
+        <span class = "title"><center>market.<font color = "grey">X</center></font></span>
+        <span class = "topic"><a href = "learn.html">the basics</a></span><br>
+        <span class = "topic"><a href = "startups.html">startups</a></span><br>
+        <span class = "topic"><a href = "valuation.html">valuation</a></span><br>
+        <span class = "topic"><a href = "scaling.html">scaling</a></span><br>
+         <span class = "topic"><a href = "exitinng.html">exiting</a></span><br>
+    </div>
+<!-- sidebar -->
+
+   <div id='right'>
+        <h2>Startups</h2>
+
+        <div class = "question">What is a startup?  </div>
+
+        <div class = "answer">A startup is just an <u>early-stage company</u>.  Almost all companies start as a startup.</div><br><img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9fVzQx7vh_5QzPuyNM_LSGKByE3p_GP_sNA5OWtjBGbqGvyeA"><br>
+
+        <div class = "question">How come they make so much money?  And yet they don't pay well?</div>
+        
+        <div class = "answer">Most startups actually don't make that much money.  They start with an idea and a small team.<br><br>  They raise money from investors, which they then spend to hire people to actually build the product.<br><br>  So they rarely can pay high salaries. But they can give you shares, which gives you a stake in the product's success.  In the future these shares can be valuable, but only if the startup makes money. <br><br>
+
+        <img src = "http://www.localizewebmarketing.com/wp-content/uploads/2013/02/1362020471_profit.png"><br><br>
+
+        <div class = "question">Some startups give stock, others give options.  What's the difference?</div>
+
+        <div class = "answer">Stock options give you the <u>right</u> to buy shares of your company's stock, but only <u>at a certain time and price.</u> <br><br>Think of options as like a coupon for a company's stock.  Like coupons, they have stipulations on when you can buy and sell.  <br><br>
+
+        Up until the 1960s stock options were traditionally given to <u>management only</u>.  In many older-school companies this is still the case.  <br><br>But Hewlett-Packard and a few others started giving out equity about fifty years ago. It's been common in Silicon Valley ever since.<br><br>  
+
+        <img src = "https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-084_coupon_discount_cut-512.png"><Br><br>
+
+        For unlisted companies - like Uber, Square, Spotify, etc - the stock price is determined by the board of directors.  For listed companies, you can just look up the company on <a href = "www.google/finance" target = "_blank"> Google Finance.</a><br>   
+
+        <div class = "question">How about an example?</div>
+
+        <div class = "answer">For instance a company might grant employees options to buy 100 shares of their stock at $10 per share today.  If the price of the shares go up in the future, you can sell them at say $20 per shares and then you can make a nice profit.  <br><br>
+
+        <img src = "http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png"><br><br>
+
+        Remember though most options come with a contract.  It nearly always says you have to hold onto the shares for a few years first.  And most companies will limit how many shares you can buy at once.  They want you to spread out purchases over a certain time period of 3,5, or 10 years.  This is known as a <u>vesting period.</u>  <br><br>      
+
+        <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1bsSW4zxeOXiryDPCD7pSuG-33StZBZEXMpb7Lt6fSQQKjboLCvwiNLY"><br><br>
+
+        <div class = "answer">The standard plan for many startups is a one year cliff for new employees after which stock options can begin to "vest" monthly or annually. Rules of thumb on who gets how many options vary but executive or early hires can be granted as much as 1-2% of the total shares of the company.</div><br>
+
+        <div class = "question">What if I leave the company before?</div>
+
+        <div class = "answer">If you don't exercise the options within that period, you lose them! And if you are leaving a company, you can only exercise your <u>vested</u> options; you will lose any future vesting.<br><br>
+
+        <ul><li>Remember:  Options always have an expiration date. You can only "exercise" your options starting on a certain date and ending on a cert­ain date.</ul><br>
+
+
+        <img src = "http://www.consilue.com/wp-content/uploads/2014/01/icon_shareholders.png"><br><br>
+
+        So you just earned $5 in profit.  How much is yours?  How much do you owe your parents?  Good question. <br><br> 
+
+        Guess:<br><br>how much do you owe your parents? <br><br>
+
+        <center>
+          <div ng-app="">
+          <form class = "pure-input-rounded">
+              <input type = "text" ng-model ="guess"></input>
+              <div id = "congrats"><font size = "3" color = "red">Congrats!</div>
+              <br><br>
+              <div id="guess">{{guess}}</guess>
+              <br><br>
+          </form>
+          </div>
+        </center>
+
+
+   </div>
+
+</div>
+
+
+</body>
+</html>
